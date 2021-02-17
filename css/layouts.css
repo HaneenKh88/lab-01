@@ -109,9 +109,120 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 959px){
+
+#container
+  {
+    display: grid;
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  #div1
+  {
+   display: grid;
+   grid-area: 1 / 1 / 2 / 6; 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   line-height: 100px;
+   background-color: #e99ec4;
+  }
+
+   #div2
+  {
+   display: grid;
+   grid-area: 2 / 1 / 6 / 1;
+   line-height: 600px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #bd789a;
+  }
+
+  #div3
+  {
+   display: grid;
+   grid-area: 2 / 2 / 3 / 4;
+   line-height: 200px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #945e79;
+   
+  }
+
+  #div4
+  {
+   display: grid;
+   grid-area: 2 / 4 / 2 / 6;;
+   line-height: px;
+   justify-content:200 center;
+   align-items: center;
+   text-align: center;
+   background-color: #624956;
+   
+  }
+
+  #div5
+  {
+  display: grid;
+   grid-area: 3 / 2 / 4 / 2;
+   line-height: 250px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #722c4f;
+  }
+
+  #div6
+  {
+   display: grid;
+   grid-area: 3 / 3 / 4 / 3;
+   line-height: 250px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #5f153a;
+  }
+
+  #div7
+  {
+   display: grid;
+   grid-area: 3 / 4 / 4 / 4;
+   line-height: 250px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #c24785;
+  }
+
+  #div8
+  {
+   display: grid;
+   grid-area: 3 / 5 / 4 / 5;
+   line-height: 250px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #a70d5a;
+  }
+
+  #div9
+  {
+  display: grid;
+   grid-area: 4 / 2 / 5 / 6;
+   line-height: 150px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #33091e;
+  }
+
+}
 /* ********************************************************** */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 960px){
 #container
 {
   display: grid;
